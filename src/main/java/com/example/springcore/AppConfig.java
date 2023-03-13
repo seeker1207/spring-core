@@ -20,7 +20,7 @@ public class AppConfig {
     }
 
     @Bean
-    private MemberRepository getMemberRepository() {
+    public MemberRepository getMemberRepository() {
         return new MemoryMemberRepository();
     }
 
